@@ -5,13 +5,13 @@ about:
   head: 3827d66
   archived: false
   latestVersion: "v2.21.4rc1"
-  collectedAt: 2026-09-07T04:39:06Z
+  collectedAt: 2026-09-07T19:43:18Z
 timeline:
   created: 2012-03-06
   lastCommit: 2026-09-04
   lastRelease: 2026-08-31
 popularity:
-  star: 70604
+  star: 70617
   watcher: 1922
   fork: 24343
   release: 255
@@ -85,7 +85,7 @@ total:
   commit: 55536
 ---
 path: /home/runner/.x-repo/github.com/ansible/ansible
-collectedAt: 2026-09-07T04:39:41Z
+collectedAt: 2026-09-07T19:43:51Z
 loc:
   Python:
     code: 195780
@@ -292,7 +292,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T04:39:42+00:00
+  collectedAt: 2026-09-07T19:43:55+00:00
   platform:
     darwin/arm64:
       name:  null
