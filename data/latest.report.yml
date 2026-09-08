@@ -5,13 +5,13 @@ about:
   head: 3827d66
   archived: false
   latestVersion: "v2.21.4rc1"
-  collectedAt: 2026-09-08T01:55:35Z
+  collectedAt: 2026-09-08T04:37:27Z
 timeline:
   created: 2012-03-06
   lastCommit: 2026-09-04
   lastRelease: 2026-08-31
 popularity:
-  star: 70619
+  star: 70620
   watcher: 1923
   fork: 24343
   release: 255
@@ -85,7 +85,7 @@ total:
   commit: 55536
 ---
 path: /home/runner/.x-repo/github.com/ansible/ansible
-collectedAt: 2026-09-08T01:56:07Z
+collectedAt: 2026-09-08T04:37:58Z
 loc:
   Python:
     code: 195780
