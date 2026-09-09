@@ -4,10 +4,10 @@ Ansible is a radically simple IT automation platform that makes your application
 
 - **Upstream**: <https://github.com/ansible/ansible>
 - **Homepage**: <https://www.ansible.com/>
-- **Latest release**: `v2.21.4rc1` (2026-08-10)
-- **Last commit**: 2026-09-04
+- **Latest release**: `v2.21.4` (2026-09-08)
+- **Last commit**: 2026-09-08
 - **License**: GPL-3.0
-- **Stars**: 70622 · **Forks**: 24343 · **Open issues**: 33447 · **Contributors**: 5555
+- **Stars**: 70618 · **Forks**: 24336 · **Open issues**: 33446 · **Contributors**: 5557
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/ansible> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T10:51:33Z._
+_Last regenerated: 2026-09-09T04:42:14Z._
