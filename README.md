@@ -22,23 +22,22 @@ x install ansible
 
 - **Latest**: `v2.21.4` (2026-09-08)
 - **Last commit**: 2026-09-09
-- **Published**: 2026-09-08T16:52:09Z
 
 ## Popularity
 
-- **Stars**: 70,619 · **Forks**: 24,331 · **Open issues**: 33,447 · **Contributors**: 5,558
+- **Stars**: 70,628 · **Forks**: 24,335 · **Open issues**: 33,447 · **Contributors**: 5,558
 
 ## Totals (cumulative)
 
-- **Releases**: 258 · **Merged PRs**: 40100 · **Open PRs**: 311 · **Closed issues**: 32926 · **Open issues**: 521 · **Commits**: 55542
+- **Releases**: 258 · **Merged PRs**: 40100 · **Open PRs**: 313 · **Closed issues**: 32926 · **Open issues**: 521 · **Commits**: 55542
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 6 | 30 | 31 | 18 | 8 | 24 |
-| 90d | 2026-06-12 | 21 | 142 | 74 | 46 | 21 | 81 |
-| 360d | 2025-09-15 | 89 | 785 | 156 | 292 | 81 | 468 |
+| 30d | 2026-08-11 | 6 | 30 | 33 | 18 | 8 | 24 |
+| 90d | 2026-06-12 | 21 | 142 | 76 | 46 | 21 | 81 |
+| 360d | 2025-09-15 | 89 | 785 | 158 | 292 | 81 | 468 |
 
 ## Code size
 
@@ -67,8 +66,8 @@ Lowest-scoring checks:
 Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ansible` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/ansible.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/ansible.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:42:31Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:32:21Z._
