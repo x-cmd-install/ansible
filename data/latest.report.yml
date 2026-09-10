@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.21.4"
   latestRelease: "v2.21.4"
   latestPrerelease: "v2.21.4rc1"
-  collectedAt: 2026-09-10T21:46:26Z
+  collectedAt: 2026-09-10T22:31:21Z
 timeline:
   created: 2012-03-06
   lastCommit: 2026-09-10
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-09-08
   lastPrerelease: 2026-08-31
 popularity:
-  star: 70632
+  star: 70633
   watcher: 1914
   fork: 24335
   release: 258
   contributor: 5557
-  pullRequest: 53676
+  pullRequest: 53677
   issue: 33447
 language:
   Python: 9775209
@@ -36,7 +36,7 @@ recent:
     since: 2026-08-11
     release: 6
     mergedPR: 31
-    openPR: 35
+    openPR: 36
     closedIssue: 18
     openIssue: 8
     commit: 28
@@ -44,7 +44,7 @@ recent:
     since: 2026-07-12
     release: 15
     mergedPR: 99
-    openPR: 61
+    openPR: 62
     closedIssue: 32
     openIssue: 18
     commit: 64
@@ -52,7 +52,7 @@ recent:
     since: 2026-06-12
     release: 21
     mergedPR: 143
-    openPR: 78
+    openPR: 79
     closedIssue: 46
     openIssue: 21
     commit: 83
@@ -60,7 +60,7 @@ recent:
     since: 2026-03-14
     release: 51
     mergedPR: 381
-    openPR: 116
+    openPR: 117
     closedIssue: 106
     openIssue: 44
     commit: 221
@@ -68,7 +68,7 @@ recent:
     since: 2025-09-15
     release: 89
     mergedPR: 786
-    openPR: 160
+    openPR: 161
     closedIssue: 292
     openIssue: 81
     commit: 470
@@ -76,20 +76,20 @@ recent:
     since: 2024-09-20
     release: 100
     mergedPR: 1725
-    openPR: 205
+    openPR: 206
     closedIssue: 793
     openIssue: 177
     commit: 943
 total:
   release: 258
   mergedPR: 40101
-  openPR: 314
+  openPR: 315
   closedIssue: 32927
   openIssue: 520
   commit: 55543
 ---
 path: /home/runner/.x-repo/github.com/ansible/ansible
-collectedAt: 2026-09-10T21:47:08Z
+collectedAt: 2026-09-10T22:31:57Z
 loc:
   Python:
     code: 197212
