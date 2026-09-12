@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 70,659 · **Forks**: 24,335 · **Open issues**: 33,447 · **Contributors**: 5,557
+- **Stars**: 70,661 · **Forks**: 24,336 · **Open issues**: 33,447 · **Contributors**: 5,557
 
 ## Totals (cumulative)
 
-- **Releases**: 258 · **Merged PRs**: 40102 · **Open PRs**: 318 · **Closed issues**: 32927 · **Open issues**: 520 · **Commits**: 55544
+- **Releases**: 258 · **Merged PRs**: 40108 · **Open PRs**: 315 · **Closed issues**: 32927 · **Open issues**: 520 · **Commits**: 55544
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 6 | 32 | 38 | 8 | 7 | 31 |
-| last60d | 2026-07-13 | 15 | 97 | 62 | 32 | 17 | 67 |
-| 90d | 2026-06-13 | 21 | 144 | 82 | 46 | 21 | 86 |
-| last180d | 2026-03-15 | 51 | 382 | 120 | 104 | 44 | 224 |
-| 360d | 2025-09-16 | 89 | 787 | 163 | 288 | 80 | 473 |
-| last720d | 2024-09-21 | 100 | 1726 | 209 | 793 | 177 | 943 |
+| 30d | 2026-08-13 | 6 | 37 | 35 | 7 | 6 | 31 |
+| last60d | 2026-07-14 | 14 | 97 | 60 | 32 | 17 | 67 |
+| 90d | 2026-06-14 | 21 | 150 | 79 | 46 | 21 | 86 |
+| last180d | 2026-03-16 | 51 | 377 | 117 | 103 | 44 | 224 |
+| 360d | 2025-09-17 | 89 | 789 | 161 | 287 | 80 | 473 |
+| last720d | 2024-09-22 | 100 | 1732 | 207 | 793 | 177 | 943 |
 
 ## Distribution status
 
-Reported by **184** distros on [repology.org](https://repology.org/project/ansible). **13** are ✅ on the latest upstream release, **135** are ⚠️ on an older version.
+Reported by **183** distros on [repology.org](https://repology.org/project/ansible). **13** are ✅ on the latest upstream release, **134** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T20:28:21Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T04:35:52Z._
