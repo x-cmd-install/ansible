@@ -4,7 +4,7 @@
 
 Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
 
-[![x-cmd/install — ansible Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ansible.svg?lang=zh)](https://x-cmd.com/install/ansible)
+[![x-cmd/install — ansible Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/ansible.svg?lang=zh)](https://x-cmd.com/install/ansible)
 
 ## 安装
 
@@ -14,15 +14,15 @@ x install ansible
 
 ## 代码洞察
 
-合计: **316,471** 行代码（覆盖前 5 种语言、共 **4355** 个文件）。
+合计: **316,509** 行代码（覆盖前 5 种语言、共 **4356** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 197,450 | 18,591 | 48,543 | 1839 |
-| Yaml | 82,639 | 3,411 | 9,959 | 2047 |
+| Python | 197,462 | 18,594 | 48,553 | 1840 |
+| Yaml | 82,654 | 3,411 | 9,963 | 2047 |
 | PowerShell | 17,888 | 2,340 | 2,486 | 189 |
 | CSharp | 6,054 | 416 | 886 | 18 |
-| Sh | 5,578 | 1,481 | 2,201 | 262 |
+| Sh | 5,588 | 1,482 | 2,202 | 262 |
 
 ## OpenSSF Scorecard 评分
 
@@ -43,26 +43,26 @@ x install ansible
 ## 发布
 
 - **最新版本**: `v2.22.0b1` (2026-09-08)
-- **最近提交**: 2026-09-21
+- **最近提交**: 2026-09-22
 
 ## 流行度
 
-- **Star**: 70,758 · **Fork**: 24,333 · **开放 issue**: 33,456 · **贡献者**: 5,557
+- **Star**: 70,771 · **Fork**: 24,332 · **开放 issue**: 33,456 · **贡献者**: 5,557
 
 ## 累计统计
 
-- **发布数**: 259 · **已合并 PR**: 40127 · **开放 PR**: 319 · **已关闭 issue**: 32939 · **开放 issue**: 517 · **提交数**: 55561
+- **发布数**: 259 · **已合并 PR**: 40128 · **开放 PR**: 320 · **已关闭 issue**: 32940 · **开放 issue**: 516 · **提交数**: 55562
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 7 | 52 | 36 | 12 | 5 | 41 |
-| last60d | 2026-07-24 | 15 | 104 | 58 | 32 | 16 | 64 |
-| 90d | 2026-06-24 | 17 | 141 | 78 | 47 | 21 | 92 |
-| last180d | 2026-03-26 | 44 | 365 | 120 | 103 | 44 | 209 |
-| 360d | 2025-09-27 | 89 | 786 | 163 | 279 | 79 | 475 |
-| last720d | 2024-10-02 | 100 | 1713 | 210 | 784 | 174 | 941 |
+| 30d | 2026-08-24 | 7 | 53 | 33 | 12 | 5 | 42 |
+| last60d | 2026-07-25 | 15 | 105 | 58 | 33 | 15 | 65 |
+| 90d | 2026-06-25 | 17 | 140 | 78 | 48 | 20 | 93 |
+| last180d | 2026-03-27 | 44 | 364 | 120 | 101 | 43 | 210 |
+| 360d | 2025-09-28 | 89 | 787 | 164 | 280 | 78 | 476 |
+| last720d | 2024-10-03 | 100 | 1709 | 211 | 785 | 173 | 939 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ ansible 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:09:00Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:56:20Z._
