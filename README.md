@@ -14,15 +14,15 @@ x install ansible
 
 ## Code insight
 
-Total: **316,509** lines of code across **4356** files in the top 5 languages.
+Total: **316,880** lines of code across **4367** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 197,462 | 18,594 | 48,553 | 1840 |
-| Yaml | 82,654 | 3,411 | 9,963 | 2047 |
+| Python | 197,754 | 18,590 | 48,657 | 1842 |
+| Yaml | 82,758 | 3,439 | 9,969 | 2053 |
 | PowerShell | 17,888 | 2,340 | 2,486 | 189 |
 | CSharp | 6,054 | 416 | 886 | 18 |
-| Sh | 5,588 | 1,482 | 2,202 | 262 |
+| Sh | 5,540 | 1,482 | 2,200 | 265 |
 
 ## OpenSSF Scorecard
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.22.0b1` (2026-09-08)
-- **Last commit**: 2026-09-22
+- **Last commit**: 2026-09-24
 
 ## Popularity
 
-- **Stars**: 70,781 · **Forks**: 24,335 · **Open issues**: 33,456 · **Contributors**: 5,557
+- **Stars**: 70,786 · **Forks**: 24,335 · **Open issues**: 33,457 · **Contributors**: 5,558
 
 ## Totals (cumulative)
 
-- **Releases**: 259 · **Merged PRs**: 40128 · **Open PRs**: 326 · **Closed issues**: 32940 · **Open issues**: 516 · **Commits**: 55562
+- **Releases**: 259 · **Merged PRs**: 40130 · **Open PRs**: 332 · **Closed issues**: 32940 · **Open issues**: 517 · **Commits**: 55564
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 7 | 52 | 38 | 12 | 5 | 42 |
-| last60d | 2026-07-26 | 15 | 105 | 62 | 33 | 14 | 65 |
-| 90d | 2026-06-26 | 17 | 139 | 83 | 47 | 20 | 93 |
-| last180d | 2026-03-28 | 44 | 364 | 125 | 101 | 43 | 210 |
-| 360d | 2025-09-29 | 89 | 783 | 170 | 278 | 78 | 476 |
-| last720d | 2024-10-04 | 100 | 1705 | 217 | 784 | 173 | 934 |
+| 30d | 2026-08-26 | 7 | 51 | 41 | 12 | 6 | 45 |
+| last60d | 2026-07-27 | 15 | 103 | 67 | 32 | 15 | 68 |
+| 90d | 2026-06-27 | 17 | 141 | 89 | 46 | 21 | 96 |
+| last180d | 2026-03-29 | 44 | 366 | 131 | 101 | 44 | 213 |
+| 360d | 2025-09-30 | 87 | 783 | 176 | 275 | 79 | 479 |
+| last720d | 2024-10-05 | 100 | 1707 | 223 | 783 | 174 | 933 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T04:46:04Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T04:58:19Z._
