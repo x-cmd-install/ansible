@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 70,834 · **Forks**: 24,337 · **Open issues**: 33,463 · **Contributors**: 5,559
+- **Stars**: 70,841 · **Forks**: 24,338 · **Open issues**: 33,464 · **Contributors**: 5,559
 
 ## Totals (cumulative)
 
-- **Releases**: 263 · **Merged PRs**: 40153 · **Open PRs**: 342 · **Closed issues**: 32942 · **Open issues**: 521 · **Commits**: 55569
+- **Releases**: 263 · **Merged PRs**: 40153 · **Open PRs**: 345 · **Closed issues**: 32943 · **Open issues**: 521 · **Commits**: 55569
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 8 | 51 | 48 | 11 | 9 | 44 |
-| last60d | 2026-08-04 | 15 | 96 | 71 | 31 | 18 | 69 |
-| 90d | 2026-07-05 | 21 | 156 | 95 | 42 | 25 | 101 |
-| last180d | 2026-04-06 | 48 | 374 | 138 | 92 | 45 | 208 |
-| 360d | 2025-10-08 | 88 | 787 | 184 | 266 | 84 | 479 |
-| last720d | 2024-10-13 | 100 | 1696 | 232 | 769 | 174 | 922 |
+| 30d | 2026-09-04 | 8 | 51 | 51 | 11 | 8 | 37 |
+| last60d | 2026-08-05 | 15 | 94 | 74 | 29 | 17 | 61 |
+| 90d | 2026-07-06 | 21 | 153 | 97 | 43 | 25 | 99 |
+| last180d | 2026-04-07 | 47 | 364 | 141 | 93 | 45 | 190 |
+| 360d | 2025-10-09 | 88 | 783 | 187 | 266 | 83 | 464 |
+| last720d | 2024-10-14 | 100 | 1694 | 235 | 768 | 173 | 922 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:20:19Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T05:54:24Z._
