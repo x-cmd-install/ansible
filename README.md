@@ -30,8 +30,8 @@ Overall score: **7.5 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.22.0b2` (2026-09-08)
+- **Latest**: `v2.21.5` (2026-10-05)
 - **Last commit**: 2026-10-02
 
 ## Popularity
 
-- **Stars**: 70,858 · **Forks**: 24,341 · **Open issues**: 33,464 · **Contributors**: 5,559
+- **Stars**: 70,864 · **Forks**: 24,341 · **Open issues**: 33,465 · **Contributors**: 5,559
 
 ## Totals (cumulative)
 
-- **Releases**: 263 · **Merged PRs**: 40153 · **Open PRs**: 345 · **Closed issues**: 32943 · **Open issues**: 521 · **Commits**: 55569
+- **Releases**: 266 · **Merged PRs**: 40161 · **Open PRs**: 346 · **Closed issues**: 32943 · **Open issues**: 522 · **Commits**: 55569
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 8 | 51 | 51 | 9 | 8 | 37 |
-| last60d | 2026-08-06 | 15 | 93 | 72 | 28 | 16 | 61 |
-| 90d | 2026-07-07 | 20 | 153 | 96 | 43 | 25 | 99 |
-| last180d | 2026-04-08 | 47 | 359 | 140 | 92 | 45 | 190 |
-| 360d | 2025-10-10 | 88 | 782 | 187 | 266 | 83 | 464 |
-| last720d | 2024-10-15 | 100 | 1693 | 235 | 768 | 173 | 922 |
+| 30d | 2026-09-06 | 11 | 57 | 53 | 8 | 9 | 37 |
+| last60d | 2026-08-07 | 18 | 100 | 72 | 28 | 17 | 61 |
+| 90d | 2026-07-08 | 23 | 159 | 98 | 42 | 26 | 99 |
+| last180d | 2026-04-09 | 50 | 363 | 141 | 92 | 46 | 190 |
+| 360d | 2025-10-11 | 91 | 789 | 188 | 266 | 84 | 464 |
+| last720d | 2024-10-16 | 100 | 1699 | 236 | 766 | 174 | 921 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:39:23Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:21:34Z._
