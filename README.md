@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.21.5` (2026-10-05)
+- **Latest**: `v2.22.0rc1` (2026-10-05)
 - **Last commit**: 2026-10-12
 
 ## Popularity
 
-- **Stars**: 70,978 · **Forks**: 24,351 · **Open issues**: 33,473 · **Contributors**: 5,560
+- **Stars**: 71,000 · **Forks**: 24,354 · **Open issues**: 33,473 · **Contributors**: 5,560
 
 ## Totals (cumulative)
 
-- **Releases**: 266 · **Merged PRs**: 40195 · **Open PRs**: 337 · **Closed issues**: 32952 · **Open issues**: 521 · **Commits**: 55579
+- **Releases**: 267 · **Merged PRs**: 40199 · **Open PRs**: 337 · **Closed issues**: 32952 · **Open issues**: 521 · **Commits**: 55579
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 8 | 74 | 41 | 11 | 10 | 31 |
-| last60d | 2026-08-14 | 14 | 121 | 65 | 22 | 15 | 75 |
-| 90d | 2026-07-15 | 22 | 180 | 88 | 47 | 25 | 105 |
-| last180d | 2026-04-16 | 46 | 374 | 130 | 96 | 42 | 195 |
-| 360d | 2025-10-18 | 90 | 796 | 181 | 255 | 83 | 455 |
-| last720d | 2024-10-23 | 100 | 1719 | 227 | 767 | 172 | 922 |
+| 30d | 2026-09-14 | 9 | 76 | 41 | 11 | 10 | 31 |
+| last60d | 2026-08-15 | 15 | 125 | 65 | 22 | 15 | 75 |
+| 90d | 2026-07-16 | 23 | 184 | 87 | 47 | 25 | 105 |
+| last180d | 2026-04-17 | 47 | 378 | 130 | 96 | 41 | 195 |
+| 360d | 2025-10-19 | 91 | 800 | 181 | 253 | 83 | 455 |
+| last720d | 2024-10-24 | 100 | 1717 | 227 | 764 | 172 | 921 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T06:54:48Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T04:56:14Z._
