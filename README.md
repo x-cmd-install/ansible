@@ -14,12 +14,12 @@ x install ansible
 
 ## Code insight
 
-Total: **317,423** lines of code across **4395** files in the top 5 languages.
+Total: **317,426** lines of code across **4395** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Python | 197,940 | 18,544 | 48,642 | 1844 |
-| Yaml | 83,365 | 3,444 | 10,044 | 2078 |
+| Yaml | 83,368 | 3,445 | 10,045 | 2078 |
 | PowerShell | 17,822 | 2,320 | 2,473 | 189 |
 | CSharp | 6,027 | 414 | 885 | 18 |
 | Sh | 5,587 | 1,486 | 2,217 | 266 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.22.0rc2` (2026-10-05)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-10-28
 
 ## Popularity
 
-- **Stars**: 71,159 · **Forks**: 24,377 · **Open issues**: 33,510 · **Contributors**: 5,556
+- **Stars**: 71,169 · **Forks**: 24,398 · **Open issues**: 33,515 · **Contributors**: 5,557
 
 ## Totals (cumulative)
 
-- **Releases**: 271 · **Merged PRs**: 40263 · **Open PRs**: 342 · **Closed issues**: 32973 · **Open issues**: 537 · **Commits**: 55594
+- **Releases**: 271 · **Merged PRs**: 40267 · **Open PRs**: 351 · **Closed issues**: 32988 · **Open issues**: 527 · **Commits**: 55597
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 12 | 96 | 41 | 26 | 24 | 34 |
-| last60d | 2026-08-29 | 19 | 181 | 57 | 39 | 30 | 80 |
-| 90d | 2026-07-30 | 27 | 221 | 78 | 58 | 37 | 102 |
-| last180d | 2026-05-01 | 46 | 400 | 130 | 109 | 56 | 195 |
-| 360d | 2025-11-02 | 91 | 820 | 184 | 251 | 96 | 444 |
-| last720d | 2024-11-07 | 100 | 1721 | 231 | 749 | 189 | 915 |
+| 30d | 2026-09-29 | 12 | 87 | 49 | 42 | 14 | 37 |
+| last60d | 2026-08-30 | 19 | 185 | 66 | 55 | 20 | 83 |
+| 90d | 2026-07-31 | 27 | 220 | 87 | 74 | 27 | 105 |
+| last180d | 2026-05-02 | 46 | 404 | 139 | 125 | 46 | 198 |
+| 360d | 2025-11-03 | 91 | 821 | 193 | 266 | 85 | 447 |
+| last720d | 2024-11-08 | 100 | 1724 | 240 | 764 | 179 | 914 |
 
 ## Distribution status
 
@@ -76,12 +76,12 @@ Reported by **183** distros on [repology.org](https://repology.org/project/ansib
 | Ubuntu 26.04 LTS | `13.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.2.0` | ⚠️ outdated |
 | Arch | `14.5.0` | ✅ latest |
-| Homebrew | `14.5.0` | ✅ latest |
+| Homebrew | `13.8.0` | 🪦 legacy |
 | Fedora rawhide | `15.0.0~a2` | ⚠️ outdated |
 | Nix unstable | `14.4.0` | ⚠️ outdated |
 | Void | `12.2.0` | ⚠️ outdated |
 | Alpine edge | `14.5.0` | ✅ latest |
-| openSUSE Tumbleweed | `14.5.0` | ✅ latest |
+| openSUSE Tumbleweed | `11.13.0` | 🪦 legacy |
 
 ## Improve this data
 
@@ -92,4 +92,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T05:34:54Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T05:44:25Z._
