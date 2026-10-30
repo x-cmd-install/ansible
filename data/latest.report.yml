@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.22.0rc2"
   latestRelease: "v2.21.5"
   latestPrerelease: "v2.22.0rc2"
-  collectedAt: 2026-10-29T05:43:50Z
+  collectedAt: 2026-10-30T05:55:42Z
 timeline:
   created: 2012-03-06
   lastCommit: 2026-10-28
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-10-05
   lastPrerelease: 2026-10-27
 popularity:
-  star: 71169
+  star: 71158
   watcher: 1904
-  fork: 24398
+  fork: 24421
   release: 271
   contributor: 5557
-  pullRequest: 53938
-  issue: 33515
+  pullRequest: 53942
+  issue: 33516
 language:
   Python: 9809992
   PowerShell: 849749
@@ -33,63 +33,63 @@ language:
 totalBytes: 11365358
 recent:
   last30d:
-    since: 2026-09-29
-    release: 12
-    mergedPR: 87
-    openPR: 49
+    since: 2026-09-30
+    release: 8
+    mergedPR: 84
+    openPR: 52
     closedIssue: 42
-    openIssue: 14
+    openIssue: 13
     commit: 37
   last60d:
-    since: 2026-08-30
+    since: 2026-08-31
     release: 19
-    mergedPR: 185
-    openPR: 66
+    mergedPR: 176
+    openPR: 69
     closedIssue: 55
-    openIssue: 20
+    openIssue: 21
     commit: 83
   last90d:
-    since: 2026-07-31
+    since: 2026-08-01
     release: 27
     mergedPR: 220
-    openPR: 87
+    openPR: 90
     closedIssue: 74
-    openIssue: 27
+    openIssue: 28
     commit: 105
   last180d:
-    since: 2026-05-02
+    since: 2026-05-03
     release: 46
     mergedPR: 404
-    openPR: 139
-    closedIssue: 125
-    openIssue: 46
+    openPR: 141
+    closedIssue: 124
+    openIssue: 47
     commit: 198
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 91
-    mergedPR: 821
-    openPR: 193
-    closedIssue: 266
-    openIssue: 85
+    mergedPR: 813
+    openPR: 196
+    closedIssue: 265
+    openIssue: 86
     commit: 447
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 100
-    mergedPR: 1724
-    openPR: 240
+    mergedPR: 1723
+    openPR: 243
     closedIssue: 764
-    openIssue: 179
-    commit: 914
+    openIssue: 180
+    commit: 913
 total:
   release: 271
   mergedPR: 40267
-  openPR: 351
+  openPR: 354
   closedIssue: 32988
-  openIssue: 527
+  openIssue: 528
   commit: 55597
 ---
 path: /home/runner/.x-repo/github.com/ansible/ansible
-collectedAt: 2026-10-29T05:44:18Z
+collectedAt: 2026-10-30T05:56:32Z
 loc:
   Python:
     code: 197940
