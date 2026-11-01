@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 71,170 · **Forks**: 24,428 · **Open issues**: 33,517 · **Contributors**: 5,556
+- **Stars**: 71,183 · **Forks**: 24,451 · **Open issues**: 33,518 · **Contributors**: 5,556
 
 ## Totals (cumulative)
 
-- **Releases**: 271 · **Merged PRs**: 40269 · **Open PRs**: 355 · **Closed issues**: 32988 · **Open issues**: 529 · **Commits**: 55599
+- **Releases**: 271 · **Merged PRs**: 40269 · **Open PRs**: 356 · **Closed issues**: 32988 · **Open issues**: 530 · **Commits**: 55599
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 8 | 85 | 53 | 40 | 14 | 39 |
-| last60d | 2026-09-01 | 16 | 177 | 70 | 55 | 21 | 85 |
-| 90d | 2026-08-02 | 27 | 222 | 90 | 74 | 29 | 107 |
-| last180d | 2026-05-04 | 46 | 402 | 142 | 123 | 48 | 200 |
-| 360d | 2025-11-05 | 88 | 814 | 196 | 262 | 86 | 449 |
-| last720d | 2024-11-10 | 100 | 1724 | 243 | 764 | 181 | 914 |
+| 30d | 2026-10-02 | 8 | 85 | 54 | 40 | 15 | 33 |
+| last60d | 2026-09-02 | 16 | 175 | 69 | 54 | 22 | 77 |
+| 90d | 2026-08-03 | 27 | 213 | 90 | 74 | 30 | 100 |
+| last180d | 2026-05-05 | 46 | 398 | 141 | 122 | 49 | 193 |
+| 360d | 2025-11-06 | 88 | 810 | 197 | 261 | 86 | 432 |
+| last720d | 2024-11-11 | 100 | 1722 | 244 | 760 | 182 | 913 |
 
 ## Distribution status
 
-Reported by **183** distros on [repology.org](https://repology.org/project/ansible). **17** are ✅ on the latest upstream release, **124** are ⚠️ on an older version.
+Reported by **183** distros on [repology.org](https://repology.org/project/ansible). **18** are ✅ on the latest upstream release, **123** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -81,7 +81,7 @@ Reported by **183** distros on [repology.org](https://repology.org/project/ansib
 | Nix unstable | `14.4.0` | ⚠️ outdated |
 | Void | `12.2.0` | ⚠️ outdated |
 | Alpine edge | `14.5.0` | ✅ latest |
-| openSUSE Tumbleweed | `14.5.0` | ✅ latest |
+| openSUSE Tumbleweed | `11.13.0` | 🪦 legacy |
 
 ## Improve this data
 
@@ -92,4 +92,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:33:25Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:01:07Z._
