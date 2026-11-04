@@ -43,11 +43,11 @@
   "body": "# Changelog\r\n\r\nSee the [full changelog](https://github.com/ansible/ansible/blob/v2.22.0/changelogs/CHANGELOG-v2.22.rst) for the changes included in this release.\r\n\r\n# Release Artifacts\r\n* Built Distribution: [ansible_core-2.22.0-py3-none-any.whl](https://files.pythonhosted.org/packages/87/98/3dc2d37181dc6a4b39d7badffaa0ef6e95be638d618372a11c316a2f8983/ansible_core-2.22.0-py3-none-any.whl) - &zwnj;2488530 bytes\r\n  * 8285d4cc81c3e3eb2d954e75531724fe0ae154d228475638123451f034a74657 (SHA256)\r\n* Source Distribution: [ansible_core-2.22.0.tar.gz](https://files.pythonhosted.org/packages/9d/9c/320090b2f1542122259cd759d5148678fd98945913837ee05718920f73ea/ansible_core-2.22.0.tar.gz) - &zwnj;3476434 bytes\r\n  * bf50b4a0cfa985e30585c7ba301897ea7050d224ca49d2816cab10e33a160e1c (SHA256)",
   "reactions": {
     "url": "https://api.github.com/repos/ansible/ansible/releases/431766083/reactions",
-    "total_count": 2,
+    "total_count": 4,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 2,
+    "hooray": 4,
     "confused": 0,
     "heart": 0,
     "rocket": 0,
