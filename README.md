@@ -26,13 +26,13 @@ Total: **317,605** lines of code across **4404** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7.1 / 10**
+Overall score: **7 / 10**
 
 Lowest-scoring checks:
 
+- **Token-Permissions** (-1/10) — No tokens found
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
-- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 71,235 · **Forks**: 24,444 · **Open issues**: 33,520 · **Contributors**: 5,555
+- **Stars**: 71,255 · **Forks**: 24,439 · **Open issues**: 33,524 · **Contributors**: 5,555
 
 ## Totals (cumulative)
 
-- **Releases**: 277 · **Merged PRs**: 40305 · **Open PRs**: 349 · **Closed issues**: 32991 · **Open issues**: 529 · **Commits**: 55607
+- **Releases**: 277 · **Merged PRs**: 40306 · **Open PRs**: 348 · **Closed issues**: 32994 · **Open issues**: 530 · **Commits**: 55608
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 14 | 113 | 45 | 42 | 14 | 41 |
-| last60d | 2026-09-05 | 22 | 203 | 63 | 53 | 21 | 85 |
-| 90d | 2026-08-06 | 29 | 245 | 82 | 73 | 28 | 108 |
-| last180d | 2026-05-08 | 52 | 430 | 134 | 124 | 46 | 201 |
-| 360d | 2025-11-09 | 94 | 844 | 189 | 261 | 85 | 440 |
-| last720d | 2024-11-14 | 100 | 1751 | 236 | 759 | 181 | 916 |
+| 30d | 2026-10-06 | 11 | 112 | 40 | 44 | 16 | 42 |
+| last60d | 2026-09-06 | 22 | 202 | 62 | 55 | 22 | 86 |
+| 90d | 2026-08-07 | 29 | 245 | 79 | 76 | 29 | 109 |
+| last180d | 2026-05-09 | 52 | 429 | 133 | 125 | 47 | 202 |
+| 360d | 2025-11-10 | 94 | 841 | 187 | 259 | 86 | 441 |
+| last720d | 2024-11-15 | 100 | 1748 | 235 | 759 | 182 | 915 |
 
 ## Distribution status
 
-Reported by **184** distros on [repology.org](https://repology.org/project/ansible). **18** are ✅ on the latest upstream release, **123** are ⚠️ on an older version.
+Reported by **186** distros on [repology.org](https://repology.org/project/ansible). **3** are ✅ on the latest upstream release, **138** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,12 +75,12 @@ Reported by **184** distros on [repology.org](https://repology.org/project/ansib
 | Debian 13 | `12.0.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `13.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.2.0` | ⚠️ outdated |
-| Arch | `14.5.0` | ✅ latest |
-| Homebrew | `14.5.0` | ✅ latest |
-| Fedora rawhide | `15.0.0~a2` | ⚠️ outdated |
+| Arch | `14.5.0` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `15.0.0~b1` | devel |
 | Nix unstable | `14.4.0` | ⚠️ outdated |
 | Void | `12.2.0` | ⚠️ outdated |
-| Alpine edge | `14.5.0` | ✅ latest |
+| Alpine edge | `14.5.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `11.13.0` | 🪦 legacy |
 
 ## Improve this data
@@ -92,4 +92,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:17:54Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:39:43Z._
