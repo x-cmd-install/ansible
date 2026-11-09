@@ -47,7 +47,7 @@ x install ansible
 
 ## 流行度
 
-- **Star**: 71,274 · **Fork**: 24,442 · **开放 issue**: 33,525 · **贡献者**: 5,553
+- **Star**: 71,295 · **Fork**: 24,444 · **开放 issue**: 33,525 · **贡献者**: 5,553
 
 ## 累计统计
 
@@ -57,26 +57,26 @@ x install ansible
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 11 | 109 | 34 | 42 | 15 | 34 |
-| last60d | 2026-09-09 | 19 | 199 | 61 | 55 | 22 | 74 |
-| 90d | 2026-08-10 | 29 | 241 | 79 | 77 | 29 | 113 |
-| last180d | 2026-05-12 | 49 | 426 | 131 | 126 | 45 | 201 |
-| 360d | 2025-11-13 | 94 | 830 | 184 | 253 | 85 | 434 |
-| last720d | 2024-11-18 | 100 | 1753 | 235 | 759 | 180 | 921 |
+| 30d | 2026-10-10 | 11 | 107 | 32 | 42 | 15 | 34 |
+| last60d | 2026-09-10 | 19 | 195 | 60 | 55 | 22 | 74 |
+| 90d | 2026-08-11 | 25 | 241 | 79 | 76 | 28 | 113 |
+| last180d | 2026-05-13 | 49 | 426 | 131 | 125 | 45 | 201 |
+| 360d | 2025-11-14 | 94 | 821 | 184 | 252 | 84 | 434 |
+| last720d | 2024-11-19 | 100 | 1749 | 235 | 755 | 180 | 921 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ansible) 上共有 **187** 个发行版报告此项目。**11** 个 ✅ 已是最新上游版本，**131** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ansible) 上共有 **186** 个发行版报告此项目。**16** 个 ✅ 已是最新上游版本，**123** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `14.4.0` | ⚠️ outdated |
+| Debian unstable | `15.0.0~b1` | devel |
 | Debian 14 | `14.0.0` | ⚠️ outdated |
 | Debian 13 | `12.0.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `13.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.2.0` | ⚠️ outdated |
-| Arch | `14.5.0` | ⚠️ outdated |
-| Homebrew | `12.3.0` | 🪦 legacy |
+| Arch | `14.6.0` | ✅ latest |
+| Homebrew | `9.13.0` | 🪦 legacy |
 | Fedora rawhide | `15.0.0~b1` | devel |
 | Nix unstable | `14.4.0` | ⚠️ outdated |
 | Void | `12.2.0` | ⚠️ outdated |
@@ -92,4 +92,4 @@ ansible 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T06:04:06Z._
+_数据快照: `data/card/261109.yml` · 2026-11-09T06:19:38Z._
