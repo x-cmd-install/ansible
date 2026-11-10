@@ -30,9 +30,9 @@ x install ansible
 
 评分最低的几项:
 
+- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## 源代码
 
@@ -47,26 +47,26 @@ x install ansible
 
 ## 流行度
 
-- **Star**: 71,295 · **Fork**: 24,444 · **开放 issue**: 33,525 · **贡献者**: 5,553
+- **Star**: 71,312 · **Fork**: 24,442 · **开放 issue**: 33,526 · **贡献者**: 5,551
 
 ## 累计统计
 
-- **发布数**: 277 · **已合并 PR**: 40313 · **开放 PR**: 348 · **已关闭 issue**: 32996 · **开放 issue**: 529 · **提交数**: 55614
+- **发布数**: 277 · **已合并 PR**: 40313 · **开放 PR**: 350 · **已关闭 issue**: 32996 · **开放 issue**: 530 · **提交数**: 55614
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 11 | 107 | 32 | 42 | 15 | 34 |
-| last60d | 2026-09-10 | 19 | 195 | 60 | 55 | 22 | 74 |
-| 90d | 2026-08-11 | 25 | 241 | 79 | 76 | 28 | 113 |
-| last180d | 2026-05-13 | 49 | 426 | 131 | 125 | 45 | 201 |
-| 360d | 2025-11-14 | 94 | 821 | 184 | 252 | 84 | 434 |
-| last720d | 2024-11-19 | 100 | 1749 | 235 | 755 | 180 | 921 |
+| 30d | 2026-10-11 | 11 | 107 | 34 | 41 | 16 | 34 |
+| last60d | 2026-09-11 | 19 | 193 | 59 | 55 | 23 | 74 |
+| 90d | 2026-08-12 | 25 | 241 | 80 | 66 | 28 | 113 |
+| last180d | 2026-05-14 | 49 | 426 | 133 | 125 | 46 | 201 |
+| 360d | 2025-11-15 | 94 | 821 | 186 | 252 | 85 | 434 |
+| last720d | 2024-11-20 | 100 | 1745 | 237 | 746 | 181 | 918 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ansible) 上共有 **186** 个发行版报告此项目。**16** 个 ✅ 已是最新上游版本，**123** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ansible) 上共有 **186** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**122** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -76,7 +76,7 @@ x install ansible
 | Ubuntu 26.04 LTS | `13.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.2.0` | ⚠️ outdated |
 | Arch | `14.6.0` | ✅ latest |
-| Homebrew | `9.13.0` | 🪦 legacy |
+| Homebrew | `14.6.0` | ✅ latest |
 | Fedora rawhide | `15.0.0~b1` | devel |
 | Nix unstable | `14.4.0` | ⚠️ outdated |
 | Void | `12.2.0` | ⚠️ outdated |
@@ -92,4 +92,4 @@ ansible 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T06:19:38Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:22:05Z._
