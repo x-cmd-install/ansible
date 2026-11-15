@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 71,460 · **Forks**: 24,460 · **Open issues**: 33,531 · **Contributors**: 5,552
+- **Stars**: 71,492 · **Forks**: 24,469 · **Open issues**: 33,531 · **Contributors**: 5,550
 
 ## Totals (cumulative)
 
-- **Releases**: 277 · **Merged PRs**: 40324 · **Open PRs**: 354 · **Closed issues**: 32998 · **Open issues**: 533 · **Commits**: 55620
+- **Releases**: 277 · **Merged PRs**: 40322 · **Open PRs**: 355 · **Closed issues**: 32998 · **Open issues**: 533 · **Commits**: 55620
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 10 | 109 | 32 | 41 | 16 | 40 |
-| last60d | 2026-09-15 | 19 | 196 | 61 | 53 | 25 | 80 |
-| 90d | 2026-08-16 | 25 | 250 | 83 | 65 | 31 | 119 |
-| last180d | 2026-05-18 | 49 | 426 | 135 | 126 | 49 | 207 |
-| 360d | 2025-11-19 | 94 | 824 | 190 | 251 | 86 | 440 |
-| last720d | 2024-11-24 | 100 | 1747 | 241 | 737 | 183 | 923 |
+| 30d | 2026-10-16 | 10 | 106 | 34 | 41 | 15 | 34 |
+| last60d | 2026-09-16 | 19 | 194 | 63 | 52 | 25 | 68 |
+| 90d | 2026-08-17 | 25 | 250 | 85 | 65 | 31 | 118 |
+| last180d | 2026-05-19 | 45 | 416 | 137 | 124 | 49 | 198 |
+| 360d | 2025-11-20 | 94 | 817 | 191 | 248 | 85 | 431 |
+| last720d | 2024-11-25 | 100 | 1738 | 242 | 733 | 183 | 923 |
 
 ## Distribution status
 
@@ -71,12 +71,12 @@ Reported by **187** distros on [repology.org](https://repology.org/project/ansib
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `15.0.0~b1` | ⚠️ outdated |
-| Debian 14 | `14.0.0` | ⚠️ outdated |
+| Debian 14 | `15.0.0~b1` | ⚠️ outdated |
 | Debian 13 | `12.0.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `13.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.2.0` | ⚠️ outdated |
 | Arch | `14.6.0` | ✅ latest |
-| Homebrew | `12.3.0` | 🪦 legacy |
+| Homebrew | `14.6.0` | ✅ latest |
 | Fedora rawhide | `15.0.0~b1` | ⚠️ outdated |
 | Nix unstable | `14.6.0` | ✅ latest |
 | Void | `12.2.0` | ⚠️ outdated |
@@ -92,4 +92,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:30:22Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:24:04Z._
