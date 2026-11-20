@@ -72,6 +72,13 @@
     - fabian@affolter-engineering.ch
   licenses:
     - GPL-3.0-or-later
+- repo: homebrew
+  srcname: ansible@9
+  visiblename: ansible@9
+  version: 9.13.0
+  origversion: null
+  status: legacy
+  summary: Automate deployment, configuration, and upgrading
 - repo: alpine_3_19
   subrepo: community
   srcname: ansible
@@ -189,20 +196,6 @@
     - seanmcavoy@gmail.com
   licenses:
     - GPL-3.0-or-later
-- repo: parrot
-  subrepo: parrot/main
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 12.0.0
-  origversion: 12.0.0+dfsg-0+deb13u1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - debian@rocketjump.eu
-  categories:
-    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: ansible
@@ -283,9 +276,9 @@
   srcname: ansible
   binname: ansible
   visiblename: ansible
-  version: 14.6.0
-  origversion: 14.6.0-1
-  status: outdated
+  version: 15.0.0
+  origversion: 15.0.0-1
+  status: newest
   summary: Official assortment of Ansible collections
   licenses:
     - GPL-3.0-or-later
@@ -330,14 +323,14 @@
   summary: Radically simple IT automation
   maintainers:
     - tbier@posteo.de
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: kali_rolling
+  subrepo: main
   srcname: ansible
   binnames:
     - ansible
   visiblename: ansible
-  version: 12.0.0
-  origversion: 12.0.0+dfsg-0+deb13u1
+  version: 14.0.0
+  origversion: 14.0.0+dfsg-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -392,9 +385,9 @@
   binnames:
     - ansible
   visiblename: ansible
-  version: 15.0.0~b1
-  origversion: 15.0.0~b1+dfsg-1
-  status: outdated
+  version: 15.0.0
+  origversion: 15.0.0+dfsg-1
+  status: newest
   maintainers:
     - team+python@tracker.debian.org
     - debian@rocketjump.eu
@@ -432,9 +425,9 @@
   binnames:
     - ansible
   visiblename: ansible
-  version: 15.0.0~b1
-  origversion: 15.0.0~b1+dfsg-1
-  status: outdated
+  version: 15.0.0
+  origversion: 15.0.0+dfsg-1
+  status: newest
   maintainers:
     - team+python@tracker.debian.org
     - debian@rocketjump.eu
@@ -477,20 +470,6 @@
   categories:
     - app-admin
 - repo: fedora_39
-  subrepo: release
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 9.0.0~a1
-  origversion: 9.0.0~a1-1.fc39
-  status: legacy
-  summary: Curated set of Ansible collections included in addition to ansible-core
-  licenses:
-    - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: ansible
   binnames:
@@ -499,6 +478,20 @@
   version: 9.10.0
   origversion: 9.10.0-1.fc39
   status: outdated
+  summary: Curated set of Ansible collections included in addition to ansible-core
+  licenses:
+    - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: ansible
+  binnames:
+    - ansible
+  visiblename: ansible
+  version: 9.0.0~a1
+  origversion: 9.0.0~a1-1.fc39
+  status: legacy
   summary: Curated set of Ansible collections included in addition to ansible-core
   licenses:
     - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
@@ -602,13 +595,6 @@
     - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
   categories:
     - Unspecified
-- repo: homebrew
-  srcname: ansible@10
-  visiblename: ansible@10
-  version: 10.7.0
-  origversion: null
-  status: legacy
-  summary: Automate deployment, configuration, and upgrading
 - repo: fedora_43
   subrepo: updates
   srcname: ansible
@@ -617,6 +603,20 @@
   visiblename: ansible
   version: 11.13.0
   origversion: 11.13.0-1.fc43
+  status: outdated
+  summary: Curated set of Ansible collections included in addition to ansible-core
+  licenses:
+    - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: ansible
+  binnames:
+    - ansible
+  visiblename: ansible
+  version: 13.8.0
+  origversion: 13.8.0-1.fc44
   status: outdated
   summary: Curated set of Ansible collections included in addition to ansible-core
   licenses:
@@ -637,15 +637,15 @@
     - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: updates
+- repo: fedora_45
+  subrepo: release
   srcname: ansible
   binnames:
     - ansible
   visiblename: ansible
-  version: 13.8.0
-  origversion: 13.8.0-1.fc44
-  status: outdated
+  version: 15.0.0~a1
+  origversion: 15.0.0~a1-1.fc45
+  status: legacy
   summary: Curated set of Ansible collections included in addition to ansible-core
   licenses:
     - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
@@ -660,20 +660,6 @@
   version: 15.0.0~b1
   origversion: 15.0.0~b1-1.fc45
   status: outdated
-  summary: Curated set of Ansible collections included in addition to ansible-core
-  licenses:
-    - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
-  categories:
-    - Unspecified
-- repo: fedora_45
-  subrepo: release
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 15.0.0~a1
-  origversion: 15.0.0~a1-1.fc45
-  status: legacy
   summary: Curated set of Ansible collections included in addition to ansible-core
   licenses:
     - GPL-3.0-or-later AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND PSF-2.0
@@ -731,13 +717,6 @@
     - GPL-3+
   categories:
     - app-admin
-- repo: homebrew
-  srcname: ansible@12
-  visiblename: ansible@12
-  version: 12.3.0
-  origversion: null
-  status: legacy
-  summary: Automate deployment, configuration, and upgrading
 - repo: gentoo
   srcname: app-admin/ansible
   visiblename: app-admin/ansible
@@ -751,6 +730,20 @@
     - GPL-3+
   categories:
     - app-admin
+- repo: nix_stable_25_11
+  srcname: python313Packages.ansible
+  visiblename: python3.13-ansible
+  version: 13.0.0
+  origversion: null
+  status: outdated
+  summary: Radically simple IT automation
+  maintainers:
+    - nix.dev@haris.paris
+    - r@sliwi.org
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - python313Packages
 - repo: gentoo
   srcname: app-admin/ansible
   visiblename: app-admin/ansible
@@ -839,33 +832,26 @@
   status: rolling
   summary: Automate deployment, configuration, and upgrading
 - repo: homebrew
+  srcname: ansible@10
+  visiblename: ansible@10
+  version: 10.7.0
+  origversion: null
+  status: legacy
+  summary: Automate deployment, configuration, and upgrading
+- repo: homebrew
+  srcname: ansible@12
+  visiblename: ansible@12
+  version: 12.3.0
+  origversion: null
+  status: legacy
+  summary: Automate deployment, configuration, and upgrading
+- repo: homebrew
   srcname: ansible@13
   visiblename: ansible@13
   version: 13.8.0
   origversion: null
   status: legacy
   summary: Automate deployment, configuration, and upgrading
-- repo: homebrew
-  srcname: ansible@9
-  visiblename: ansible@9
-  version: 9.13.0
-  origversion: null
-  status: legacy
-  summary: Automate deployment, configuration, and upgrading
-- repo: kali_rolling
-  subrepo: main
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 14.0.0
-  origversion: 14.0.0+dfsg-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - debian@rocketjump.eu
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: app-admin/ansible
   visiblename: app-admin/ansible
@@ -1053,22 +1039,6 @@
     - python
 - repo: macports
   srcname: python/py-ansible
-  binname: py310-ansible
-  visiblename: py310-ansible
-  version: 13.0.0
-  origversion: null
-  status: outdated
-  summary: SSH-based configuration management and deployment system
-  maintainers:
-    - adfernandes@macports
-    - adfernandes@github
-    - steenzout@github
-  licenses:
-    - GPL-3+
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-ansible
   binname: py311-ansible
   visiblename: py311-ansible
   version: 13.0.0
@@ -1101,8 +1071,8 @@
     - python
 - repo: macports
   srcname: python/py-ansible
-  binname: py313-ansible
-  visiblename: py313-ansible
+  binname: py310-ansible
+  visiblename: py310-ansible
   version: 13.0.0
   origversion: null
   status: outdated
@@ -1119,6 +1089,22 @@
   srcname: python/py-ansible
   binname: py314-ansible
   visiblename: py314-ansible
+  version: 13.0.0
+  origversion: null
+  status: outdated
+  summary: SSH-based configuration management and deployment system
+  maintainers:
+    - adfernandes@macports
+    - adfernandes@github
+    - steenzout@github
+  licenses:
+    - GPL-3+
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-ansible
+  binname: py313-ansible
+  visiblename: py313-ansible
   version: 13.0.0
   origversion: null
   status: outdated
@@ -1200,9 +1186,9 @@
   srcname: ansible
   binname: ansible
   visiblename: ansible
-  version: 14.6.0
-  origversion: 14.6.0-1
-  status: outdated
+  version: 15.0.0
+  origversion: 15.0.0-1
+  status: newest
   summary: Official assortment of Ansible collections
   licenses:
     - GPL-3.0-or-later
@@ -1218,8 +1204,8 @@
   licenses:
     - spdx:GPL-3.0-or-later
 - repo: nix_stable_24_05
-  srcname: python312Packages.ansible
-  visiblename: python3.12-ansible
+  srcname: python311Packages.ansible
+  visiblename: python3.11-ansible
   version: 9.5.1
   origversion: null
   status: outdated
@@ -1229,10 +1215,10 @@
   licenses:
     - GPL-3.0-or-later
   categories:
-    - python312Packages
+    - python311Packages
 - repo: nix_stable_24_05
-  srcname: python311Packages.ansible
-  visiblename: python3.11-ansible
+  srcname: python312Packages.ansible
+  visiblename: python3.12-ansible
   version: 9.5.1
   origversion: null
   status: outdated
@@ -1242,7 +1228,7 @@
   licenses:
     - GPL-3.0-or-later
   categories:
-    - python311Packages
+    - python312Packages
 - repo: nix_stable_24_11
   srcname: python311Packages.ansible
   visiblename: python3.11-ansible
@@ -1270,8 +1256,8 @@
   categories:
     - python312Packages
 - repo: nix_stable_25_05
-  srcname: python313Packages.ansible
-  visiblename: python3.13-ansible
+  srcname: python312Packages.ansible
+  visiblename: python3.12-ansible
   version: 11.9.0
   origversion: null
   status: outdated
@@ -1282,10 +1268,10 @@
   licenses:
     - GPL-3.0-or-later
   categories:
-    - python313Packages
+    - python312Packages
 - repo: nix_stable_25_05
-  srcname: python312Packages.ansible
-  visiblename: python3.12-ansible
+  srcname: python313Packages.ansible
+  visiblename: python3.13-ansible
   version: 11.9.0
   origversion: null
   status: outdated
@@ -1296,7 +1282,7 @@
   licenses:
     - GPL-3.0-or-later
   categories:
-    - python312Packages
+    - python313Packages
 - repo: nix_stable_25_11
   srcname: python312Packages.ansible
   visiblename: python3.12-ansible
@@ -1311,20 +1297,6 @@
     - GPL-3.0-or-later
   categories:
     - python312Packages
-- repo: nix_stable_25_11
-  srcname: python313Packages.ansible
-  visiblename: python3.13-ansible
-  version: 13.0.0
-  origversion: null
-  status: outdated
-  summary: Radically simple IT automation
-  maintainers:
-    - nix.dev@haris.paris
-    - r@sliwi.org
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - python313Packages
 - repo: nix_stable_26_05
   srcname: python313Packages.ansible
   visiblename: ansible
@@ -1354,20 +1326,6 @@
   categories:
     - python314Packages
 - repo: nix_unstable
-  srcname: python314Packages.ansible
-  visiblename: ansible
-  version: 14.6.0
-  origversion: null
-  status: outdated
-  summary: Radically simple IT automation
-  maintainers:
-    - git@haris.paris
-    - r@sliwi.org
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - python314Packages
-- repo: nix_unstable
   srcname: python313Packages.ansible
   visiblename: ansible
   version: 14.6.0
@@ -1381,6 +1339,20 @@
     - GPL-3.0-or-later
   categories:
     - python313Packages
+- repo: nix_unstable
+  srcname: python314Packages.ansible
+  visiblename: ansible
+  version: 14.6.0
+  origversion: null
+  status: outdated
+  summary: Radically simple IT automation
+  maintainers:
+    - git@haris.paris
+    - r@sliwi.org
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - python314Packages
 - repo: openbsd
   srcname: sysutils/ansible
   binname: ansible
@@ -1406,22 +1378,6 @@
     - System/Administration and Configuration
 - repo: openmamba
   subrepo: base
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 14.6.0
-  origversion: 1:14.6.0-1mamba
-  status: legacy
-  summary: A radically simple IT automation system
-  maintainers:
-    - silvan@openmamba.org
-  licenses:
-    - GPL
-  categories:
-    - System/Libraries
-- repo: openmamba
-  subrepo: devel-makedist
   srcname: ansible
   binnames:
     - ansible
@@ -1601,6 +1557,34 @@
   summary: Official assortment of Ansible collections
   licenses:
     - GPL-3.0-or-later
+- repo: parrot
+  subrepo: parrot/main
+  srcname: ansible
+  binnames:
+    - ansible
+  visiblename: ansible
+  version: 12.0.0
+  origversion: 12.0.0+dfsg-0+deb13u1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: ansible
+  binnames:
+    - ansible
+  visiblename: ansible
+  version: 12.0.0
+  origversion: 12.0.0+dfsg-0+deb13u1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - debian@rocketjump.eu
+  categories:
+    - misc
 - repo: pkgsrc_2026_2
   srcname: sysutils/ansible
   binname: ansible
@@ -1629,9 +1613,9 @@
   srcname: sysutils/ansible
   binname: ansible
   visiblename: sysutils/ansible
-  version: 14.6.0
+  version: 15.0.0
   origversion: null
-  status: outdated
+  status: newest
   summary: SSH-based configuration management, deployment, and task execution
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1885,20 +1869,61 @@
   summary: open-source software platform for remote configuring and managing computers
   licenses:
     - proprietary license
-- repo: openeuler_20_03_lts_sp3
+- repo: ibmi
   srcname: ansible
   visiblename: ansible
-  version: 2.5.5
-  origversion: 2.5.5-4.oe1
+  version: 2.9.10
+  origversion: 2.9.10-2
   status: outdated
-  summary: SSH-based configuration management, deployment, and task execution system
+  summary: An IT automation system
   licenses:
-    - Python-2.0 and MIT and GPL+
+    - GPL-3.0
   categories:
     - Unspecified
   vulnerable: true
-- repo: pardus_21
-  subrepo: updates/main
+- repo: cygwin
+  srcname: ansible
+  binname: ansible
+  visiblename: ansible
+  version: 2.8.4
+  origversion: 2.8.4-1
+  status: outdated
+  summary: System automation tool
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Admin
+  vulnerable: true
+- repo: cygwin
+  srcname: ansible
+  binname: ansible-doc
+  visiblename: ansible-doc
+  version: 2.8.4
+  origversion: 2.8.4-1
+  status: outdated
+  summary: System automation tool
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Doc
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: ansible
+  binnames:
+    - ansible
+  visiblename: ansible
+  version: 2.10.7+merged+base+2.10.17
+  origversion: 2.10.7+merged+base+2.10.17+dfsg-0+deb11u1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - debian@rocketjump.eu
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye-security/main
   srcname: ansible
   binnames:
     - ansible
@@ -1911,6 +1936,90 @@
     - debian@rocketjump.eu
   categories:
     - misc
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: ansible
+  binnames:
+    - ansible
+    - ansible-doc
+  visiblename: ansible
+  version: 2.7.7.1
+  origversion: 2.7.7.1-1+security
+  status: outdated
+  maintainers:
+    - hlieberman@debian.org
+    - debian@rocketjump.eu
+    - mvo@debian.org
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: ansible
+  binnames:
+    - ansible
+  visiblename: ansible
+  version: 2.10.7+merged+base+2.10.17
+  origversion: 2.10.7+merged+base+2.10.17+dfsg-0+deb11u1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - debian@rocketjump.eu
+  categories:
+    - misc
+  vulnerable: true
+- repo: epel_7
+  srcname: ansible
+  visiblename: ansible
+  version: 2.9.27
+  origversion: 2.9.27-1.el7
+  status: outdated
+  summary: SSH-based configuration management, deployment, and task execution system
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: exherbo
+  subrepo: platypus
+  srcname: app-admin/ansible
+  visiblename: app-admin/ansible
+  version: 2.9.24
+  origversion: null
+  status: legacy
+  summary: Configuration management and orchestration software
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - app-admin
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: ansible
+  binnames:
+    - ansible
+    - ansible-doc
+  visiblename: ansible
+  version: 2.7.7
+  origversion: 2.7.7+dfsg-1+deb10u1
+  status: outdated
+  maintainers:
+    - hlieberman@debian.org
+    - debian@rocketjump.eu
+    - mvo@debian.org
+  categories:
+    - admin
+  vulnerable: true
+- repo: openeuler_20_03_lts_sp3
+  srcname: ansible
+  visiblename: ansible
+  version: 2.5.5
+  origversion: 2.5.5-4.oe1
+  status: outdated
+  summary: SSH-based configuration management, deployment, and task execution system
+  licenses:
+    - Python-2.0 and MIT and GPL+
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: openeuler_20_03_lts_sp4
   srcname: ansible
@@ -2033,6 +2142,32 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: ansible
+  visiblename: ansible
+  version: 2.9.27
+  origversion: 2.9.27-bp155.2.16
+  status: outdated
+  summary: SSH-based configuration management, deployment, and task execution system
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Development/Languages/Python
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: ansible
+  visiblename: ansible
+  version: 2.9.27
+  origversion: 2.9.27-150000.1.17.2
+  status: outdated
+  summary: SSH-based configuration management, deployment, and task execution system
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Development/Languages/Python
+  vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: ansible
@@ -2074,22 +2209,20 @@
   categories:
     - misc
   vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: pardus_21
+  subrepo: updates/main
   srcname: ansible
   binnames:
     - ansible
-    - ansible-doc
   visiblename: ansible
-  version: 2.7.7
-  origversion: 2.7.7+dfsg-1+deb10u1
+  version: 2.10.7+merged+base+2.10.17
+  origversion: 2.10.7+merged+base+2.10.17+dfsg-0+deb11u4
   status: outdated
   maintainers:
-    - hlieberman@debian.org
+    - team+python@tracker.debian.org
     - debian@rocketjump.eu
-    - mvo@debian.org
   categories:
-    - admin
+    - misc
   vulnerable: true
 - repo: pureos_byzantium
   subrepo: byzantium/main
@@ -2214,22 +2347,6 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 2.5.1
-  origversion: 2.5.1+dfsg-1
-  status: outdated
-  maintainers:
-    - hlieberman@debian.org
-    - debian@rocketjump.eu
-    - mvo@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic-updates/universe
   srcname: ansible
   binnames:
@@ -2240,6 +2357,22 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - debian@rocketjump.eu
+    - mvo@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: ansible
+  binnames:
+    - ansible
+  visiblename: ansible
+  version: 2.5.1
+  origversion: 2.5.1+dfsg-1
+  status: outdated
+  maintainers:
+    - hlieberman@debian.org
     - debian@rocketjump.eu
     - mvo@debian.org
   categories:
@@ -2275,153 +2408,4 @@
     - hlieberman@debian.org
   categories:
     - universe/misc
-  vulnerable: true
-- repo: cygwin
-  srcname: ansible
-  binname: ansible
-  visiblename: ansible
-  version: 2.8.4
-  origversion: 2.8.4-1
-  status: outdated
-  summary: System automation tool
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Admin
-  vulnerable: true
-- repo: cygwin
-  srcname: ansible
-  binname: ansible-doc
-  visiblename: ansible-doc
-  version: 2.8.4
-  origversion: 2.8.4-1
-  status: outdated
-  summary: System automation tool
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Doc
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 2.10.7+merged+base+2.10.17
-  origversion: 2.10.7+merged+base+2.10.17+dfsg-0+deb11u1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - debian@rocketjump.eu
-  categories:
-    - misc
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 2.10.7+merged+base+2.10.17
-  origversion: 2.10.7+merged+base+2.10.17+dfsg-0+deb11u4
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - debian@rocketjump.eu
-  categories:
-    - misc
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: ansible
-  binnames:
-    - ansible
-    - ansible-doc
-  visiblename: ansible
-  version: 2.7.7.1
-  origversion: 2.7.7.1-1+security
-  status: outdated
-  maintainers:
-    - hlieberman@debian.org
-    - debian@rocketjump.eu
-    - mvo@debian.org
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: ansible
-  binnames:
-    - ansible
-  visiblename: ansible
-  version: 2.10.7+merged+base+2.10.17
-  origversion: 2.10.7+merged+base+2.10.17+dfsg-0+deb11u1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - debian@rocketjump.eu
-  categories:
-    - misc
-  vulnerable: true
-- repo: epel_7
-  srcname: ansible
-  visiblename: ansible
-  version: 2.9.27
-  origversion: 2.9.27-1.el7
-  status: outdated
-  summary: SSH-based configuration management, deployment, and task execution system
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: exherbo
-  subrepo: platypus
-  srcname: app-admin/ansible
-  visiblename: app-admin/ansible
-  version: 2.9.24
-  origversion: null
-  status: legacy
-  summary: Configuration management and orchestration software
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - app-admin
-  vulnerable: true
-- repo: ibmi
-  srcname: ansible
-  visiblename: ansible
-  version: 2.9.10
-  origversion: 2.9.10-2
-  status: outdated
-  summary: An IT automation system
-  licenses:
-    - GPL-3.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: ansible
-  visiblename: ansible
-  version: 2.9.27
-  origversion: 2.9.27-150000.1.17.2
-  status: outdated
-  summary: SSH-based configuration management, deployment, and task execution system
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Development/Languages/Python
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: ansible
-  visiblename: ansible
-  version: 2.9.27
-  origversion: 2.9.27-bp155.2.16
-  status: outdated
-  summary: SSH-based configuration management, deployment, and task execution system
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Development/Languages/Python
   vulnerable: true
