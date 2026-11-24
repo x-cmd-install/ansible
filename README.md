@@ -26,13 +26,13 @@ Total: **318,059** lines of code across **4416** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7 / 10**
+Overall score: **7.1 / 10**
 
 Lowest-scoring checks:
 
-- **Dangerous-Workflow** (-1/10) — no workflows found
-- **Token-Permissions** (-1/10) — No tokens found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## Source
 
@@ -42,31 +42,31 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.22.0` (2026-11-02)
-- **Last commit**: 2026-11-19
+- **Latest**: `v2.20.12rc1` (2026-11-02)
+- **Last commit**: 2026-11-23
 
 ## Popularity
 
-- **Stars**: 71,667 · **Forks**: 24,392 · **Open issues**: 33,544 · **Contributors**: 5,551
+- **Stars**: 71,568 · **Forks**: 24,380 · **Open issues**: 33,545 · **Contributors**: 5,552
 
 ## Totals (cumulative)
 
-- **Releases**: 277 · **Merged PRs**: 40340 · **Open PRs**: 350 · **Closed issues**: 33007 · **Open issues**: 537 · **Commits**: 55631
+- **Releases**: 280 · **Merged PRs**: 40348 · **Open PRs**: 351 · **Closed issues**: 33007 · **Open issues**: 538 · **Commits**: 55633
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 10 | 100 | 30 | 43 | 21 | 37 |
-| last60d | 2026-09-24 | 18 | 187 | 59 | 58 | 30 | 75 |
-| 90d | 2026-08-25 | 25 | 262 | 77 | 70 | 36 | 124 |
-| last180d | 2026-05-27 | 45 | 420 | 132 | 124 | 53 | 204 |
-| 360d | 2025-11-28 | 94 | 824 | 187 | 248 | 90 | 439 |
-| last720d | 2024-12-03 | 100 | 1740 | 236 | 733 | 188 | 931 |
+| 30d | 2026-10-25 | 13 | 108 | 31 | 43 | 22 | 39 |
+| last60d | 2026-09-25 | 21 | 193 | 60 | 57 | 31 | 77 |
+| 90d | 2026-08-26 | 28 | 267 | 76 | 70 | 37 | 126 |
+| last180d | 2026-05-28 | 48 | 426 | 133 | 124 | 54 | 206 |
+| 360d | 2025-11-29 | 97 | 832 | 188 | 248 | 91 | 441 |
+| last720d | 2024-12-04 | 100 | 1747 | 237 | 732 | 189 | 924 |
 
 ## Distribution status
 
-Reported by **180** distros on [repology.org](https://repology.org/project/ansible). **18** are ✅ on the latest upstream release, **122** are ⚠️ on an older version.
+Reported by **180** distros on [repology.org](https://repology.org/project/ansible). **19** are ✅ on the latest upstream release, **120** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **180** distros on [repology.org](https://repology.org/project/ansib
 | Ubuntu 26.04 LTS | `13.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.2.0` | ⚠️ outdated |
 | Arch | `15.0.0` | ✅ latest |
-| Homebrew | `9.13.0` | 🪦 legacy |
+| Homebrew | `15.0.0` | ✅ latest |
 | Fedora rawhide | `15.0.0` | ✅ latest |
 | Nix unstable | `14.6.0` | ⚠️ outdated |
 | Void | `14.3.1` | ⚠️ outdated |
@@ -92,4 +92,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:49:33Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:15:30Z._

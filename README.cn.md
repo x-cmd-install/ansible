@@ -26,13 +26,13 @@ x install ansible
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7 / 10**
+总评分: **7.1 / 10**
 
 评分最低的几项:
 
-- **Dangerous-Workflow** (-1/10) — no workflows found
-- **Token-Permissions** (-1/10) — No tokens found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## 源代码
 
@@ -42,31 +42,31 @@ x install ansible
 
 ## 发布
 
-- **最新版本**: `v2.22.0` (2026-11-02)
-- **最近提交**: 2026-11-19
+- **最新版本**: `v2.20.12rc1` (2026-11-02)
+- **最近提交**: 2026-11-23
 
 ## 流行度
 
-- **Star**: 71,667 · **Fork**: 24,392 · **开放 issue**: 33,544 · **贡献者**: 5,551
+- **Star**: 71,568 · **Fork**: 24,380 · **开放 issue**: 33,545 · **贡献者**: 5,552
 
 ## 累计统计
 
-- **发布数**: 277 · **已合并 PR**: 40340 · **开放 PR**: 350 · **已关闭 issue**: 33007 · **开放 issue**: 537 · **提交数**: 55631
+- **发布数**: 280 · **已合并 PR**: 40348 · **开放 PR**: 351 · **已关闭 issue**: 33007 · **开放 issue**: 538 · **提交数**: 55633
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 10 | 100 | 30 | 43 | 21 | 37 |
-| last60d | 2026-09-24 | 18 | 187 | 59 | 58 | 30 | 75 |
-| 90d | 2026-08-25 | 25 | 262 | 77 | 70 | 36 | 124 |
-| last180d | 2026-05-27 | 45 | 420 | 132 | 124 | 53 | 204 |
-| 360d | 2025-11-28 | 94 | 824 | 187 | 248 | 90 | 439 |
-| last720d | 2024-12-03 | 100 | 1740 | 236 | 733 | 188 | 931 |
+| 30d | 2026-10-25 | 13 | 108 | 31 | 43 | 22 | 39 |
+| last60d | 2026-09-25 | 21 | 193 | 60 | 57 | 31 | 77 |
+| 90d | 2026-08-26 | 28 | 267 | 76 | 70 | 37 | 126 |
+| last180d | 2026-05-28 | 48 | 426 | 133 | 124 | 54 | 206 |
+| 360d | 2025-11-29 | 97 | 832 | 188 | 248 | 91 | 441 |
+| last720d | 2024-12-04 | 100 | 1747 | 237 | 732 | 189 | 924 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ansible) 上共有 **180** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**122** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ansible) 上共有 **180** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**120** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -76,7 +76,7 @@ x install ansible
 | Ubuntu 26.04 LTS | `13.1.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.2.0` | ⚠️ outdated |
 | Arch | `15.0.0` | ✅ latest |
-| Homebrew | `9.13.0` | 🪦 legacy |
+| Homebrew | `15.0.0` | ✅ latest |
 | Fedora rawhide | `15.0.0` | ✅ latest |
 | Nix unstable | `14.6.0` | ⚠️ outdated |
 | Void | `14.3.1` | ⚠️ outdated |
@@ -92,4 +92,4 @@ ansible 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T07:49:34Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:15:31Z._
