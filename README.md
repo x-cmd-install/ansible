@@ -47,41 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 71,568 · **Forks**: 24,380 · **Open issues**: 33,545 · **Contributors**: 5,552
+- **Stars**: 71,595 · **Forks**: 24,381 · **Open issues**: 33,546 · **Contributors**: 5,552
 
 ## Totals (cumulative)
 
-- **Releases**: 280 · **Merged PRs**: 40348 · **Open PRs**: 351 · **Closed issues**: 33007 · **Open issues**: 538 · **Commits**: 55633
+- **Releases**: 280 · **Merged PRs**: 40348 · **Open PRs**: 353 · **Closed issues**: 33011 · **Open issues**: 535 · **Commits**: 55633
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 13 | 108 | 31 | 43 | 22 | 39 |
-| last60d | 2026-09-25 | 21 | 193 | 60 | 57 | 31 | 77 |
-| 90d | 2026-08-26 | 28 | 267 | 76 | 70 | 37 | 126 |
-| last180d | 2026-05-28 | 48 | 426 | 133 | 124 | 54 | 206 |
-| 360d | 2025-11-29 | 97 | 832 | 188 | 248 | 91 | 441 |
-| last720d | 2024-12-04 | 100 | 1747 | 237 | 732 | 189 | 924 |
-
-## Distribution status
-
-Reported by **180** distros on [repology.org](https://repology.org/project/ansible). **19** are ✅ on the latest upstream release, **120** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `15.0.0` | ✅ latest |
-| Debian 14 | `15.0.0` | ✅ latest |
-| Debian 13 | `12.0.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `13.1.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `9.2.0` | ⚠️ outdated |
-| Arch | `15.0.0` | ✅ latest |
-| Homebrew | `15.0.0` | ✅ latest |
-| Fedora rawhide | `15.0.0` | ✅ latest |
-| Nix unstable | `14.6.0` | ⚠️ outdated |
-| Void | `14.3.1` | ⚠️ outdated |
-| Alpine edge | `15.0.0` | ✅ latest |
-| openSUSE Tumbleweed | `11.13.0` | 🪦 legacy |
+| 30d | 2026-10-26 | 13 | 95 | 32 | 46 | 19 | 39 |
+| last60d | 2026-09-26 | 21 | 191 | 62 | 61 | 28 | 77 |
+| 90d | 2026-08-27 | 28 | 267 | 78 | 74 | 34 | 126 |
+| last180d | 2026-05-29 | 48 | 422 | 135 | 128 | 51 | 206 |
+| 360d | 2025-11-30 | 97 | 832 | 190 | 250 | 88 | 441 |
+| last720d | 2024-12-05 | 100 | 1741 | 239 | 732 | 186 | 924 |
 
 ## Improve this data
 
@@ -92,4 +73,4 @@ Install metadata for ansible lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:15:30Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:32:12Z._
